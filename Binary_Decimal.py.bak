@@ -1,6 +1,6 @@
 # You are given an integer A in decimal (base 10).
 # Return a string denoting the binary (base 2) form of the integer A.
-def DecimalToBinary(n):
+def BinaryToDecimal(n):
     ans=0
     p=1
     while(n>0):

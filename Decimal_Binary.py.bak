@@ -1,6 +1,6 @@
 ## Convert Binary to Decimal
 # Input single digit 
-def Binary_Decimak(N):
+def main(N):
     sum1=0
     i=0
     while(N>0):
