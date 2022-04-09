@@ -6,7 +6,7 @@
 #numbers = [4, 6, 9, 23, 5]
 # Output: [16, 36, 9, 81, 4, 64, 144]
 #['scaler', 'rishabh', 'student', 'course']
-#24840 
+#24840
 
 
 from functools import reduce 
