@@ -13,3 +13,24 @@ class Solution:
         if A==1 : return 1
         if A<=0 : return 0
         return self.findAthFibonacci(A-1) + self.findAthFibonacci(A-2)    
+
+### Another Simpler Version without the Function recurssion
+## For Every Fibonaci the first term is always 0 and Second term is always 1
+def fibonaci(n):
+    first_term=0
+    second_term=1
+    next_term=0
+    if n <= 0:
+        print("Please enter a positive integer.")
+    elif n == 1:
+        print(first_term)
+    elif n == 2:
+        print(first_term, second_term)
+    else:
+        print(first_term,second_term,end=" ")
+        for _ in range(2,n):
+            next_term=first_term+second_term
+            first_term=second_term
+            second_term=next_term
+            print(next_term,end=" ")
+    print()
